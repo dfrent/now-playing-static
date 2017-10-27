@@ -195,3 +195,18 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media( min-width: 768px) {
+
+  main {margin-left: 4.5rem;
+  }
+
+  img.site-logo-image {
+      max-width: 1.8em;
+      position: absolute;
+      left: -8px;
+      top: -17px;
+}
+
+
+}
