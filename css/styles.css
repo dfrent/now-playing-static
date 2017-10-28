@@ -240,34 +240,46 @@ figure {
   }
 }
 
-@media( min-width: 992px){
+@media( min-width: 992px) {
 
-  .movie:first-child > .movie-image > .movie-poster {
-      display: none;
+ .movie:first-child {
+    max-width: 100%;
   }
 
-   .movie:first-child > .movie-image > .movie-backdrop {
-      display: block;
+ .movie {
+    max-width: 33%;
+    margin: 0;
+    float: left;
   }
 
-   .movie-backdrop {
-      display: none;
-    }
+ .movie:first-child > .movie-details {
+    min-width: 100%;
+  }
 
-   .movie-poster {
-      display: block;
-      max-width: 33%;
-    }
+ .movie:first-child > .movie-details > .movie-overview {
+    display: block;
+  }
 
+ .movie-overview {
+    display: none;
+  }
 
+ .movie:first-child > .movie-image > .movie-poster {
+    display: none;
+  }
 
+ .movie:first-child > .movie-image > .movie-backdrop {
+    display: block;
+  }
 
+ .movie-backdrop {
+    display: none;
+  }
 
+ .movie-poster {
+    display: inline-block;
+  }
 
-
-
-
-
-
-
-}
+ footer {
+    clear: both;
+  }
