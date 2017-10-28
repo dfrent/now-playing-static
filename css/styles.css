@@ -198,15 +198,44 @@ figure {
 
 @media( min-width: 768px) {
 
-  main {margin-left: 4.5rem;
+ main {
+      margin-left: 4.5rem;
   }
 
-  img.site-logo-image {
-      max-width: 1.8em;
-      position: absolute;
-      left: -8px;
-      top: -17px;
-}
+ img.site-logo-image {
+    max-width: 1.8em;
+    position: absolute;
+    left: -8px;
+    top: -17px;
+  }
 
+ .site-nav {
+    background: none;
+    top: 60px;
+  }
 
+ .site-nav-item {
+    float: none;
+    text-align: left;
+    top: 40px;
+    padding-left: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    max-width: 72px;
+    text-align: center;
+    min-width: 72px;
+  }
+
+ .site-logo {
+    top: 20px;
+    left: 15px;
+  }
+
+ .movie-overview {
+    display: block;
+  }
+
+ .site-footer {
+    margin: -52px;
+  }
 }
