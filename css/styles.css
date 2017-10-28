@@ -239,3 +239,35 @@ figure {
     margin: -52px;
   }
 }
+
+@media( min-width: 992px){
+
+  .movie:first-child > .movie-image > .movie-poster {
+      display: none;
+  }
+
+   .movie:first-child > .movie-image > .movie-backdrop {
+      display: block;
+  }
+
+   .movie-backdrop {
+      display: none;
+    }
+
+   .movie-poster {
+      display: block;
+      max-width: 33%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
